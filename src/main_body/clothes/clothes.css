@@ -1,0 +1,71 @@
+.header-clothes img{
+    width: 100%;
+}
+.main-clothes{
+    padding: 20px 20px 0;
+}
+.shopping {
+    margin: 40px 0;
+    justify-content: space-between !important;
+}
+.shopping-nav{
+    width: 380px;
+    height: 110px;
+    border: 1px solid #ccc;
+    justify-content: space-around !important;
+    cursor: pointer;
+    background: #fff;
+    padding: 0 30px;
+}
+.shopping-nav i{
+    font-size: 46px;
+    color: #eb3535;
+}
+.shipping-over h3{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+.shipping-over .function {
+    background: #fff;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 25px;
+     border-bottom: 5px solid #FAB001;
+}
+.shipping-over .function .img_container{
+    padding: 10px;
+    margin: 0 auto;
+    width: 250px;
+}
+.shipping-over .function .img_container img{
+    height: 250px;
+}
+.baby-clothing .function .img_container {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.baby-clothing .function .img_container img{
+    height: 210px !important;
+}
+.footer-clothes .shipping-over .function {
+    color: #ccc;
+    background: #23292C;
+    border: none;
+    margin-top: 60px;
+}
+.footer-clothes .shipping-over .function span{
+    display: none;
+}
+.footer-clothes .shipping-over .function .price{
+    font-weight: normal !important;
+    font-size: 12px;
+}
+.footer-clothes .shipping-over .function button{
+    display: none;
+}

@@ -1,0 +1,73 @@
+.fruits_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.fruits_header img{
+    width: 825px;
+}
+.fruits_header .cook-img img{
+    display: block;
+    width: 450px;
+    margin: 0 auto 15px;
+}
+/* ------------------------------------------- */
+.fruits_body{
+    background: transparent;
+    padding: 0 20px 40px;
+}
+.fruits_body nav a {
+    text-decoration: none;
+    color: #6f6f6f;
+    padding: 26px;
+}
+.fruits_body .all .function{
+     display: grid;
+     grid-template-columns: repeat(6, 1fr);
+     gap: 16px;
+     padding: 0 !important;
+}
+.fruits_body .all .function .table{
+    background: #fff;
+}
+.fruits_body .all .function .table .text-cont{
+    margin-bottom: 10px;
+}
+.fruits_body .all .img_container{
+    background: transparent !important;
+    height: 100px !important;
+    margin: 0 0 -30px !important;
+}
+.fruits_body .all .function .span{
+    /* display: none !important; */
+}
+.fruits_body .all .img_container img{
+    width: 120px;
+}
+.fruits_footer{
+    position: relative;
+}
+.fruits_footer img{
+    width: 100%;
+}
+.fruct_subcribe{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 80%;
+    left: 50%;
+    border: 1px solid #6f6f6f;
+}
+.fruct_subcribe input{
+    padding: 10px;
+    width: 250px;
+    border: none;
+    outline: none;
+}
+.fruct_subcribe button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background: #62A83D;
+    border: none;
+    color: #fff;
+}

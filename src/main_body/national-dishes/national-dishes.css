@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* --------------------------------------- */
+.container_nationalDishes{
+    width: 100%;
+}
+.nationalDishes-header img {
+    width: 100%;
+}
+.navbar{
+    justify-content: space-between;
+    margin: 60px 0 50px;
+}
+.container_nationalDishes main {
+    padding: 0 20px 40px;
+}
+.navbar .cook{
+    width: 260px;
+    height: 60px;
+    border: 1px solid #ccc;
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.meal h3 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 20px;
+    text-align: center;
+}
+.meal .function {
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.meal .function span{
+    display: none;
+}
+.meal .function .img_container {
+    padding: 10px;
+    margin: 0 auto;
+    width: 250px;
+}
+.meal .function .img_container img{
+    height: 150px;
+}

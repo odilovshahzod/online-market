@@ -1,0 +1,248 @@
+@font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    src: url("./shrift/Poppins-Regular.woff2") format("woff2"),
+        url("./shrift/Poppins-Regular.woff") format("woff");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+button{
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    cursor: pointer;
+}
+/* --------------- containerApp ---------------------- */
+.containerApp{
+    position: relative;
+}
+/*---------------- main_header -------------------------------*/
+.main_header{
+    justify-content: space-between !important;
+    padding: 0 120px;
+    min-width: 100vh;
+    min-height: 120px;
+    border-bottom: 1px solid #E5E5E5;
+    width: 1349px;
+}
+.search{
+    background: #F2F2F2;
+    padding: 6px 22px;
+    border-radius: 50px;
+}
+.search input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.search .lupa {
+    background-image: url('./img/lupa.png');
+    width: 15px;
+    height: 15px;
+}
+.logo {
+    margin-right: 20px;
+}
+.profil{
+    justify-content: space-between !important;
+    width: 120px;
+}
+.profil a{
+    position: relative;
+    width: 29px;
+    height: 30px;
+    background-size: contain;
+}
+.profil a .shop{
+    position: absolute;
+    color: #000;
+    text-align: center;
+    right: -10px;
+    bottom: -8px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: rgba(245, 18, 18, 0.8);
+    font-size: 11px;
+    font-weight: bold;
+}
+.people_icon{
+    background-image: url('./img/people.png');
+}
+.shopping_icon{
+    background-image: url('./img/shopping.png');
+}
+/* ------------------ main_header_navbar --------------- */
+.main_header_navbar{
+    min-width: 100vh;
+    min-height: 40px;
+    width: 1349px;
+}
+.main_header_navbar .link {
+    margin: 14px 20px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid #fff;
+    font-family: 'Montserrat';
+}
+.main_header_navbar .link:hover {
+    color:#62A83D;
+    border-bottom: 2px solid #62A83D;
+}
+.main_header_navbar .link.active {
+        color:#62A83D;
+        border-bottom: 2px solid #62A83D;
+}
+/* ----------------- main_body -------------------------- */
+.main_body{
+    background: #F3F3F3;
+    width: 1349px;
+}
+/* ------------- SearchFunction style ------------------ */
+ .function{
+     line-height: 28px;
+      text-align: center;
+       padding: 20px 30px;
+ }
+ .img_container {
+     min-height: 240px;
+      background:#F3F3F3;
+ }
+ .img_container img {
+     max-width: 220px;
+ }
+ .price{
+     margin: 3px 0 8px;
+     letter-spacing: 1px;
+ }
+.function .shopBtn {
+    width: 140px;
+    height: 30px;
+    border-radius: 3px;
+    color: #fff;
+ }
+ .star{
+     display: block;
+     width: 160px;
+     margin: 0 auto;
+ }
+.star i{
+    display: inline-block;
+    color: yellow;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 3px;
+}
+.text-cont{
+    border: none !important;
+     font-weight: bold;
+}
+.text-cont .text{
+    display: block;
+    margin: 12px 0 5px;
+    letter-spacing: 1.5px;
+}
+/* ---------- Korzinka ------------------- */
+.basked_container{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+}
+.basked{
+    position: relative;
+    margin: 50px auto 0;
+    width: 800px;
+    height: 550px;
+    padding: 20px 40px;
+    background: #fff;
+    border-radius: 2px;
+    overflow: auto;
+    border: 20px solid #fff;
+}
+.basked h1{
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.basked_container .basked table {
+    width: 100%;
+}
+.basked_container .basked .basked_shopping, tr, td, th {
+    border-collapse: collapse;
+    padding: 8px 0 8px 10px;
+}
+.basked_container .basked_shopping tr{
+    background: #F2F2F2;
+    border-bottom: 10px solid #fff;
+}
+.basked_container .basked .basked_shopping tr th{
+    background: #fff;
+    font-weight: bold;
+}
+
+.basked .basked_shopping input{
+    width: 42px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    margin-right: 8px;
+}
+.basked .basked_shopping button{
+    background: #f33434;
+    padding: 4px 15px;
+    border-radius: 2px;
+}
+.basked_container .close{
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+    transform: translate(-50%, -50%);
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 3px;
+    background: red;
+    border: 2px solid transparent;
+    transition: 0.5s ease;
+}
+.basked_container .close:hover {
+    box-shadow: 0 0 5px 3px red;
+    background: #fff;
+    color: red;
+}

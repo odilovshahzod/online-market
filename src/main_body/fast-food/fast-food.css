@@ -1,0 +1,47 @@
+.food-header img{
+   width: 100%;
+}
+.food h3 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat';  
+}
+.food .function {
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.food .function .span{
+    display: none;
+}
+.food .function .table{
+    justify-content: flex-start !important;
+    background: #F3F3F3;
+    border: 1px dashed #383838;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px !important;
+}
+.food .function .img_container {
+    width: 280px;
+    margin: 0 !important;
+}
+.food .function .text-cont {
+    width: 350px;
+    padding: 15px;
+}
+.food .function .text-cont .text {
+   font-weight: bold; 
+   margin-bottom: 10px;
+   font-family: 'Montserrat';
+   letter-spacing: 1px;
+   margin: 0;
+}
+.food .function .text-cont .price{
+    font-weight: normal !important;
+    text-align: justify;
+    padding: 0 5px;
+}

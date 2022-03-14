@@ -1,0 +1,31 @@
+.techniques_header img{
+    width: 100%;
+}
+.techniques_main{
+    padding: 20px 20px 40px;
+}
+.technology h3 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+.technology .function {
+    background: #fff;
+    padding: 20px 0 !important;
+    overflow: auto;
+    display: flex;
+}
+.technology .function .table{
+    min-width: 250px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.technology .function .img_container img {
+    width: 100%;
+}
+.technology .function .table .text-cont{
+    padding: 0 0 20px;
+}
